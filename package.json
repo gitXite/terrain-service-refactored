@@ -1,0 +1,28 @@
+{
+  "name": "terrain-service-refactored",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitXite/terrain-service-refactored.git"
+  },
+  "keywords": [],
+  "author": "gitXite",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gitXite/terrain-service-refactored/issues"
+  },
+  "homepage": "https://github.com/gitXite/terrain-service-refactored#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.1"
+  }
+}
