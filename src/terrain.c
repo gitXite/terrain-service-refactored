@@ -244,8 +244,8 @@ void terrain_config_init(terrain_config_t* config) {
     config->format = MODEL_RECT_140x190;
     config->resolution = DEM_AUTO;
     config->z_scale = 1.0f;
-    config->base_height_mm = 3.0f;
-    config->water_drop_mm = 1.0f;
+    config->base_height_mm = 2.0f;
+    config->water_drop_mm = 0.5f;
     config->rotation_deg = 0.0f;
 }
 
