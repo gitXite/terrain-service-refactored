@@ -12,7 +12,7 @@ RUN npm ci --only=production
 COPY . .
 
 RUN make
-RUN chmod +x ./celevstl
+RUN chmod +x ./terrain_cli
 
 FROM node:25.2.1-slim
 

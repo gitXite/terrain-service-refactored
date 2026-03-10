@@ -140,7 +140,7 @@ static int write_terrain_surface(
             }
             
             float elev = dem_get_elevation_interpolated(dem, lat, lng);
-            if (elev == 0) {
+            if (elev <= 0.0f) {
                 elev = -water_drop / z_scale;
             }
             curr_line[x] = elev * z_scale + base_h;
